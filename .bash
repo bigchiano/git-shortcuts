@@ -4,7 +4,7 @@ gp() {
     git push
 }
 
-gac() {
+gc() {
     if [ $# -eq 0 ]; then
         echo "Please provide a commit message."
     else
@@ -19,7 +19,7 @@ gac() {
     fi
 }
 
-gacp() {
+gcp() {
     if [ $# -eq 0 ]; then
         echo "Please provide a commit message."
     else
