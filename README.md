@@ -21,7 +21,7 @@ sudo vim ~/.profile
 source ~/.profile
 ```
 #### FOR WINDOWS 
-- No idea ['']
+- No idea ['.']
     
 ### Usage 
 - Push/Pull updates from git (note: this will run ```git pull``` and then ```git push```     
