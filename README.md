@@ -40,6 +40,6 @@ source ~/.bashrc  # or ~/.zshrc
 
 ### Customization
 1. Open `git-shortcuts.sh`.    
-2. Add or modify functions to include custom Git commands as needed.
-For further details, please refer to the [GitHub repository](https://github.com/bigchiano/git-shortcuts).
+2. You can create a `PR` to contribute to this project.
 
+Thank you
