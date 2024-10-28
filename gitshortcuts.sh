@@ -49,3 +49,20 @@ ginit() {
         git push -u origin main
     fi
 }
+
+
+gca() {
+    if [ $# -eq 0 ]; then
+        echo "Please provide a commit message."
+    else
+        local commit_message="$1"
+        shift
+        while [ $# -gt 0 ]; do
+            commit_message="$commit_message $1"
+            shift
+        done
+        git commit --amend -m "$commit_message"
+        git push -f
+    fi
+}
+
