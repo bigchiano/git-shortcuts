@@ -8,11 +8,11 @@
 Git Shortcuts simplifies frequent Git tasks by using shorthand commands, saving time for developers working with Git daily.
 
 ### Features
-**Quick Commits and Pushes:** Commands like `gc` for fast commits and `gp` for combined pulls and pushes.    
+- **Quick Commits and Pushes:** Commands like `gc` for fast commits and `gp` for combined pulls and pushes.    
 
-**Efficient Staging & Committing:** Use `gca` to stage all files and commit them in a single command.    
+- **Efficient Staging & Committing:** Use `gca` to stage all files and commit them in a single command.    
      
-**Easy Repository Initialization:** `ginit` initializes a new repository and optionally links it to a remote.    
+- **Easy Repository Initialization:** `ginit` initializes a new repository and optionally links it to a remote.    
 
      
 ### Installation
